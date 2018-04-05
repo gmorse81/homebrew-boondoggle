@@ -1,9 +1,9 @@
 class Boondoggle < Formula
   desc ""
   homepage ""
-  url "https://github.com/gmorse81/boondoggle/releases/download/v0.1.4/boondoggle_0.1.4_darwin_amd64.tar.gz"
-  version "0.1.4"
-  sha256 "b54979d12cc7d0ae98b2916433096608ad55e7b54e8c00951d5023ce0b8de9ba"
+  url "https://github.com/gmorse81/boondoggle/releases/download/v0.1.5/boondoggle_0.1.5_darwin_amd64.tar.gz"
+  version "0.1.5"
+  sha256 "1f3a7e759a3ed2f8a7c8da700de7b785b20e4f83f6cc89949a0f7412eb8de498"
 
   def install
     bin.install "boondoggle"
