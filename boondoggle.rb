@@ -2,9 +2,9 @@
 class Boondoggle < Formula
   desc ""
   homepage "https://github.com/gmorse81/boondoggle"
-  url "https://github.com/gmorse81/boondoggle/releases/download/v0.1.25/boondoggle_0.1.25_MacOS_x86_64.tar.gz"
-  version "0.1.25"
-  sha256 "bf5a236fe681478629e3b8f1f53c979c03e912402f53b7115db3ba25b1ed9414"
+  url "https://github.com/gmorse81/boondoggle/releases/download/v0.1.26/boondoggle_0.1.26_MacOS_x86_64.tar.gz"
+  version "0.1.26"
+  sha256 "ad63206712423e7b3a14406b93fbf19eb02dfdea14af5d701027d0189b768c11"
 
   def install
     bin.install "boondoggle"
