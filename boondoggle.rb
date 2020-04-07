@@ -2,16 +2,16 @@
 class Boondoggle < Formula
   desc ""
   homepage "https://github.com/gmorse81/boondoggle"
-  version "1.0.31"
+  version "1.0.32"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/gmorse81/boondoggle/releases/download/v1.0.31/boondoggle_1.0.31_MacOS_x86_64.tar.gz"
-    sha256 "f30d3eb8d6b2a28520f50fea77dde45bbb276da7d1c988c8b727e5882d792b49"
+    url "https://github.com/gmorse81/boondoggle/releases/download/v1.0.32/boondoggle_1.0.32_MacOS_x86_64.tar.gz"
+    sha256 "bc708e55686c569963c30f15a668e78b27418380f9dc83bb3417c75ab6bf9d63"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/gmorse81/boondoggle/releases/download/v1.0.31/boondoggle_1.0.31_Linux_x86_64.tar.gz"
-      sha256 "20cb0ea0cd7b38f739f092161105d595e5859e7fd916f2b14bf60ad7cd495918"
+      url "https://github.com/gmorse81/boondoggle/releases/download/v1.0.32/boondoggle_1.0.32_Linux_x86_64.tar.gz"
+      sha256 "9b213cc9480db684988e47b249c1c88042256832417bc437638c921a38df5eee"
     end
   end
 
