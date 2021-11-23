@@ -5,12 +5,12 @@
 class Boondoggle < Formula
   desc ""
   homepage "https://github.com/gmorse81/boondoggle"
-  version "3.0.7"
+  version "3.0.8"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.7/boondoggle_3.0.7_MacOS_x86_64.tar.gz"
-      sha256 "a279978ca881902427ff505b9cec5a6843db9813839ec797f2548a056efb8ade"
+      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.8/boondoggle_3.0.8_MacOS_x86_64.tar.gz"
+      sha256 "62d68cc58740afef492b77c4cdd70bc9a1264fa428a814f8e581451878b2db5a"
 
       def install
         bin.install "boondoggle"
@@ -20,16 +20,16 @@ class Boondoggle < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.7/boondoggle_3.0.7_Linux_arm64.tar.gz"
-      sha256 "b1e4bc525740e1c2fd7927dd65715092f1bbe3120dd87277d3154ce5107c709b"
+      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.8/boondoggle_3.0.8_Linux_arm64.tar.gz"
+      sha256 "d2399c0b1038ee427b605ce8fdb1361f4afef001d96dba95af7f48c0edbc7ca7"
 
       def install
         bin.install "boondoggle"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.7/boondoggle_3.0.7_Linux_x86_64.tar.gz"
-      sha256 "385add3885ea35411f46f6adb4eece026ca397d9e90cabfaf27648b103dcb1ef"
+      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.8/boondoggle_3.0.8_Linux_x86_64.tar.gz"
+      sha256 "89f37974139386e3fab58d4b4d3fcdb5392e7c3bacd5fa9b07758837adba4ad9"
 
       def install
         bin.install "boondoggle"
