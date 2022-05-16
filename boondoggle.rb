@@ -5,20 +5,20 @@
 class Boondoggle < Formula
   desc ""
   homepage "https://github.com/gmorse81/boondoggle"
-  version "3.0.9"
+  version "3.0.10"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.9/boondoggle_3.0.9_MacOS_arm64.tar.gz"
-      sha256 "c410a0ac675ea6af500469d9490697cd2b3cc72acb523e3c549894887b15bf02"
+      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.10/boondoggle_3.0.10_MacOS_arm64.tar.gz"
+      sha256 "53d80e399c9c6d4e189cc26461ac56b3682e23c42d7af51ae505a99cd1a76f74"
 
       def install
         bin.install "boondoggle"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.9/boondoggle_3.0.9_MacOS_x86_64.tar.gz"
-      sha256 "cfabe9ba8d2f1a31ede44166288b47bc041b785fb20a93e7c17833455627ae27"
+      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.10/boondoggle_3.0.10_MacOS_x86_64.tar.gz"
+      sha256 "781c8f6fb4129e16e784fa6fd03897bf80e1edd29e2f68470cb5ae3bc9b5c009"
 
       def install
         bin.install "boondoggle"
@@ -28,16 +28,16 @@ class Boondoggle < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.9/boondoggle_3.0.9_Linux_arm64.tar.gz"
-      sha256 "5803d6885d4d5edf6c3cea556b1a59631701361bc16695b15564f0af029d7e4b"
+      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.10/boondoggle_3.0.10_Linux_arm64.tar.gz"
+      sha256 "89dfce679825d7e628e9cce99a554df22a6ccfbb889a3509d4dfbf71468a2035"
 
       def install
         bin.install "boondoggle"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.9/boondoggle_3.0.9_Linux_x86_64.tar.gz"
-      sha256 "2910c131576931c7fe5a8205b00b5f15c68f4c1b04ba35206b76d5ab2f332b2c"
+      url "https://github.com/gmorse81/boondoggle/releases/download/v3.0.10/boondoggle_3.0.10_Linux_x86_64.tar.gz"
+      sha256 "d0faca05eb4fe8e4794fc84325da7695b04e5e82ae46522eccdba8eaa4b9db40"
 
       def install
         bin.install "boondoggle"
